@@ -45,6 +45,18 @@ minimap2 -ax map-ont -t 10 TAR10.1.OMOL01000003.1.fa ERR2173373.sra.fastq | samt
 
 ### Reads长度比较
 
+#### 密度分布曲线比较
 ![length](pics/length.png)
 
+#### 模拟的Reads长度分布直方图
+![simulate](pics/HistogramReadlength.png)
+
 **需要将长度设置在一定范围内，使其符合正态分布**
+
+
+## 下周计划
+
+- 提升数据模拟运算的性能
+- 加入插入缺失的模拟变异
+- 查阅文献，研究是否有更好的生成模拟数据的方式
+- 通过参考其他方法，加入质量值模拟
